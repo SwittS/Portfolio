@@ -1,0 +1,80 @@
+.main {
+  background-color: #0d47a1;
+  overflow: auto;
+  padding-top: 5%;
+  position: relative;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3  {
+  font-weight: 200;
+}
+
+
+.fa-github-square {
+  padding: 1%;
+}
+
+.fa-linkedin-square {
+  padding: 1%;
+}
+
+.fa-envelope {
+  padding: 1%;
+}
+
+.downArrow {
+  padding: 6%;
+}
+
+.siteBtn {
+  background-color: #0d47a1;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.codeBtn {
+  background-color: #0d47a1;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+#bounceArrow {
+  position: relative;
+  margin: auto;
+  top: 40%; bottom: 0;
+  left: 0; right: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+  40%  { -webkit-transform: translateY(-20px); }
+  80% { -webkit-transform: translateY(-10px); }
+}
+
+.content {
+  padding-bottom: 6%;
+}
+
+.appDesc {
+  font-size: 1em;
+}
+.section {
+  padding-top: 10%;
+}
+
+#footer {
+  background-color: #0d47a1;
+  position: relative;
+}
