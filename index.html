@@ -2,18 +2,165 @@
 <html>
   <head>
     <title>Switt's Portfolio</title>
-    <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-    <!--Let browser know website is optimized for mobile-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="https://use.fontawesome.com/d4c1848f40.js"></script>
+    <link rel="stylesheet" href="css/app.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
   <body>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <div class="main center white-text clear_fix">
+      <div class="name row">
+        <h1>Switt Srikulacheep</h1>
+        <h3>Web Developer</h3>
+      </div>
+    <div class="row icons">
+      <a href="https://github.com/SwittS"><i class="fa fa-github-square fa-5x white-text" aria-hidden="true"></i></a>
+      <a href="https://linkedin.com/in/switt-srikulacheep"<i class="fa fa-linkedin-square fa-5x white-text" aria-hidden="true"></i></a>
+      <a href="mailto:switt.srikulacheep@gmail.com"><i class="fa fa-envelope fa-5x white-text" aria-hidden="true"></i></a>
+    </div>
+    <div class="downArrow">
+      <a href="#1"><i id="bounceArrow" class="fa fa-angle-double-down fa-5x white-text" aria-hidden="true"></i></a>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section">
+      <h3 id="1" class="center">Projects</h3>
+    </div>
+
+    <div class="container content center">
+      <div class="card-panel hoverable">
+        <div class="row">
+        <div class="col s5 m5 l5">
+          <h3>Aide Initiative</h3>
+          <p>
+            Ruby on Rails | PostgreSQL | Foundation | SASS
+          </p>
+    <p class="appDesc flow-text left-align">
+      User and accessibility friendly platform that acts as a stepping stone for patients/guardians and caregivers to begin communication. Collaborated with three other developers. My contributions included the entity relationship diagram as well as backend work with authentication, routing, and validations.
+    </p>
+    <div class="row">
+      <a href="https://aide-initiative.herokuapp.com/" class="siteBtn waves-effect waves-light btn">View Site</a>
+      <a href="https://github.com/tbduong/AIDE" class="codeBtn waves-effect waves-light btn">View Code</a>
+    </div>
+        </div>
+        <div class="col s7 m7 l7">
+          <div class="slider">
+            <ul class="slides">
+              <li><img src="images/aideinitiativeA.png">
+              </li>
+              <li><img src="images/aideinitiativeB.png">
+              </li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="card-panel hoverable">
+      <div class="row">
+      <div class="col s5 m5 l5">
+        <h3>Find My Draft</h3>
+        <p>
+          Ruby on Rails | JavaScript | jQuery | PostgreSQL | MaterializeCSS
+        </p>
+        <p class="appDesc flow-text left-align">
+        Booking app for league commissioners to find businesses that will host live fantasy football drafts. Designed and developed the solo project in the course of a week.
+        </p>
+        <div class="row">
+          <a href="https://findmydraft.herokuapp.com/" class="siteBtn waves-effect waves-light btn">View Site</a>
+          <a href="https://github.com/SwittS/findmydraft" class="codeBtn waves-effect waves-light btn">View Code</a>
+        </div>
+      </div>
+      <div class="col s7 m7 l7">
+        <div class="slider">
+          <ul class="slides">
+            <li><img src="images/findmydraftA.png">
+            </li>
+            <li><img src="images/findmydraftB.png">
+            </li>
+            <li><img src="images/findmydraftC.png">
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="card-panel hoverable">
+    <div class="row">
+    <div class="col s5 m5 l5">
+      <h3>Meal 2 Meal</h3>
+      <p>
+        JavaScript | jQuery | Node.js | MongoDB | MaterializeCSS | Handlebars
+      </p>
+      <p class="appDesc flow-text left-align">
+        Comparison app where users can choose two meals and compare them side-by-side based on nutritional value. Constructed the UX/UI and developed within 6 sprints over 6 days.
+      </p>
+      <div class="row">
+        <a href="https://findmydraft.herokuapp.com/" class="siteBtn waves-effect waves-light btn disabled">View Site</a>
+        <a href="https://github.com/SwittS/meal-2-meal" class="codeBtn waves-effect waves-light btn">View Code</a>
+      </div>
+    </div>
+    <div class="col s7 m7 l7">
+      <div class="slider">
+        <ul class="slides">
+          <li><img src="images/meal2mealA.png">
+          </li>
+          <li><img src="images/meal2mealB.png">
+          </li>
+        </ul>
+      </div>
+  </div>
+  </div>
+</div>
+
+  </div>
+
+
+  <footer id="footer" class="page-footer">
+    <div class="footertop container">
+      <div class="row">
+        <div class="col s12 m12 l12 center">
+          <ul>
+            <div class="row icons">
+              <a href="https://github.com/SwittS"><i class="fa fa-github-square fa-5x white-text" aria-hidden="true"></i></a>
+              <a href="https://linkedin.com/in/switt-srikulacheep"<i class="fa fa-linkedin-square fa-5x white-text" aria-hidden="true"></i></a>
+              <a href="mailto:switt.srikulacheep@gmail.com"><i class="fa fa-envelope fa-5x white-text" aria-hidden="true"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footerBottom" class="footer-copyright">
+      <div class="container">
+        Copyright &copy; 2016
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script>
+      $(document).ready(function () {
+          $('.slider').slider({full_width: true});
+
+          $('a[href*=#]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+            && location.hostname == this.hostname) {
+            var $target = $(this.hash);
+            $target = $target.length && $target
+            || $('[name=' + this.hash.slice(1) +']');
+            if ($target.length) {
+              var targetOffset = $target.offset().top;
+              $('html,body')
+              .animate({scrollTop: targetOffset}, 1000);
+             return false;
+            }
+            }
+          });
+      });
+  </script>
   </body>
 </html>
