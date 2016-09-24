@@ -1,8 +1,12 @@
 .main {
-  background-color: #0d47a1;
+  background-color: #58B9F7;
   overflow: auto;
   padding-top: 5%;
   position: relative;
+}
+
+body {
+  background-color: #e0e0e0;
 }
 
 h1 {
@@ -30,20 +34,43 @@ h3  {
   padding: 1%;
 }
 
+.fa-github-square:hover {
+  background-image:none !important;
+  color: #CC0000 !important;
+}
+
+.fa-linkedin-square:hover {
+  background-image:none !important;
+  color: #CC0000 !important;
+}
+
+.fa-envelope:hover {
+  background-image:none !important;
+  color: #CC0000 !important;
+}
+
 .downArrow {
-  padding: 6%;
+  padding: 4%;
 }
 
 .siteBtn {
-  background-color: #0d47a1;
+  background-color: #58B9F7;
   margin-right: 5%;
   margin-top: 10%;
 }
 
+.siteBtn:hover {
+  background-color: #CC0000;
+}
+
 .codeBtn {
-  background-color: #0d47a1;
+  background-color: #58B9F7;
   margin-left: 5%;
   margin-top: 10%;
+}
+
+.codeBtn:hover {
+  background-color: #CC0000;
 }
 
 #bounceArrow {
@@ -55,6 +82,11 @@ h3  {
   height: 40px;
   line-height: 40px;
   -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+#bounceArrow:hover {
+  background-image: none !important;
+  color: #CC0000 !important;
 }
 
 @-webkit-keyframes bounce {
@@ -75,6 +107,6 @@ h3  {
 }
 
 #footer {
-  background-color: #0d47a1;
+  background-color: #58B9F7;
   position: relative;
 }
