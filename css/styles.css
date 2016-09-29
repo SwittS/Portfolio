@@ -77,6 +77,13 @@ h3  {
   background-color: #58B9F7;
   margin-right: 5%;
   margin-top: 10%;
+  display: inline-block;
+}
+
+@media only screen and (max-width : 320px) {
+  .siteBtn {
+    margin: 5%;
+  }
 }
 
 .siteBtn:hover {
@@ -87,6 +94,13 @@ h3  {
   background-color: #58B9F7;
   margin-left: 5%;
   margin-top: 10%;
+  display: inline-block;
+}
+
+@media only screen and (max-width : 320px) {
+  .codeBtn {
+    margin: 5%;
+  }
 }
 
 .codeBtn:hover {
