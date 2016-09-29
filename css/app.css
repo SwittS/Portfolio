@@ -13,6 +13,12 @@ h1 {
   font-weight: 600;
 }
 
+@media only screen and (max-width : 320px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
 h2 {
   font-weight: 400;
 }
@@ -26,12 +32,30 @@ h3  {
   padding: 1%;
 }
 
+@media only screen and (max-width : 768px) {
+  .fa-github-square {
+    padding: 5%;
+  }
+}
+
 .fa-linkedin-square {
   padding: 1%;
 }
 
+@media only screen and (max-width : 768px) {
+  .fa-linkedin-square {
+    padding: 5%;
+  }
+}
+
 .fa-envelope {
   padding: 1%;
+}
+
+@media only screen and (max-width : 768px) {
+  .fa-envelope {
+    padding: 5%;
+  }
 }
 
 .fa-github-square:hover {
