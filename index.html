@@ -6,7 +6,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script src="https://use.fontawesome.com/d4c1848f40.js"></script>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
@@ -146,25 +146,17 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-  <script>
-      $(document).ready(function () {
-          $('.slider').slider({full_width: true});
-
-          $('a[href*=#]').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-            && location.hostname == this.hostname) {
-            var $target = $(this.hash);
-            $target = $target.length && $target
-            || $('[name=' + this.hash.slice(1) +']');
-            if ($target.length) {
-              var targetOffset = $target.offset().top;
-              $('html,body')
-              .animate({scrollTop: targetOffset}, 1000);
-             return false;
-            }
-            }
-          });
-      });
-  </script>
+  <script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/script.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
   </body>
 </html>
