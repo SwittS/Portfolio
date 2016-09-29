@@ -49,10 +49,6 @@ h3  {
   color: #CC0000 !important;
 }
 
-.downArrow {
-  padding: 4%;
-}
-
 .siteBtn {
   background-color: #58B9F7;
   margin-right: 5%;
@@ -75,9 +71,7 @@ h3  {
 
 #bounceArrow {
   position: relative;
-  margin: auto;
-  top: 40%; bottom: 0;
-  left: 0; right: 0;
+  margin-top: 8%;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -102,6 +96,7 @@ h3  {
 .appDesc {
   font-size: 1em;
 }
+
 .section {
   padding-top: 10%;
 }
